@@ -1,5 +1,5 @@
 //
-//  LAHViewController.h
+//  LAHChallengeTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by lulu on 17/02/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LAHViewController : UIViewController
+@interface LAHChallengeTableViewController : UITableViewController
 
 @end

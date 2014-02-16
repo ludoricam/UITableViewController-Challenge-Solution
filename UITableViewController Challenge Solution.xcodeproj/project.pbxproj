@@ -14,13 +14,13 @@
 		AFD056B918B17EC600AF7058 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD056B818B17EC600AF7058 /* main.m */; };
 		AFD056BD18B17EC600AF7058 /* LAHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD056BC18B17EC600AF7058 /* LAHAppDelegate.m */; };
 		AFD056C018B17EC600AF7058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD056BE18B17EC600AF7058 /* Main.storyboard */; };
-		AFD056C318B17EC600AF7058 /* LAHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD056C218B17EC600AF7058 /* LAHViewController.m */; };
 		AFD056C518B17EC600AF7058 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD056C418B17EC600AF7058 /* Images.xcassets */; };
 		AFD056CC18B17EC600AF7058 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD056CB18B17EC600AF7058 /* XCTest.framework */; };
 		AFD056CD18B17EC600AF7058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD056AC18B17EC600AF7058 /* Foundation.framework */; };
 		AFD056CE18B17EC600AF7058 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD056B018B17EC600AF7058 /* UIKit.framework */; };
 		AFD056D618B17EC600AF7058 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFD056D418B17EC600AF7058 /* InfoPlist.strings */; };
 		AFD056D818B17EC600AF7058 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD056D718B17EC600AF7058 /* UITableViewController_Challenge_SolutionTests.m */; };
+		AFD056E318B1812200AF7058 /* LAHChallengeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD056E218B1812200AF7058 /* LAHChallengeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		AFD056BB18B17EC600AF7058 /* LAHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAHAppDelegate.h; sourceTree = "<group>"; };
 		AFD056BC18B17EC600AF7058 /* LAHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAHAppDelegate.m; sourceTree = "<group>"; };
 		AFD056BF18B17EC600AF7058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFD056C118B17EC600AF7058 /* LAHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAHViewController.h; sourceTree = "<group>"; };
-		AFD056C218B17EC600AF7058 /* LAHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAHViewController.m; sourceTree = "<group>"; };
 		AFD056C418B17EC600AF7058 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AFD056CA18B17EC600AF7058 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD056CB18B17EC600AF7058 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AFD056D318B17EC600AF7058 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		AFD056D518B17EC600AF7058 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFD056D718B17EC600AF7058 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		AFD056E118B1812200AF7058 /* LAHChallengeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAHChallengeTableViewController.h; sourceTree = "<group>"; };
+		AFD056E218B1812200AF7058 /* LAHChallengeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAHChallengeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				AFD056BB18B17EC600AF7058 /* LAHAppDelegate.h */,
 				AFD056BC18B17EC600AF7058 /* LAHAppDelegate.m */,
 				AFD056BE18B17EC600AF7058 /* Main.storyboard */,
-				AFD056C118B17EC600AF7058 /* LAHViewController.h */,
-				AFD056C218B17EC600AF7058 /* LAHViewController.m */,
+				AFD056E118B1812200AF7058 /* LAHChallengeTableViewController.h */,
+				AFD056E218B1812200AF7058 /* LAHChallengeTableViewController.m */,
 				AFD056C418B17EC600AF7058 /* Images.xcassets */,
 				AFD056B318B17EC600AF7058 /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD056BD18B17EC600AF7058 /* LAHAppDelegate.m in Sources */,
+				AFD056E318B1812200AF7058 /* LAHChallengeTableViewController.m in Sources */,
 				AFD056B918B17EC600AF7058 /* main.m in Sources */,
-				AFD056C318B17EC600AF7058 /* LAHViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
